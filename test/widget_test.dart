@@ -93,6 +93,17 @@ print(a <= b);
   var n = hitungNilai2(mapel1: 50, mapel2: 2);
   print(n);
   var o = hitungNilai3(79, 100);
+
+  // final keyword +> imutable atau tidak bisa diubah
+  // const final
+  // const
+  //const String mahasiswa = "beben";
+  // final
+  final String mahasiswafk;
+  
+  mahasiswafk = "beben" ;
+  
+  print (mahasiswafk);
 }
 //Function
 hitungNilai() {
@@ -125,3 +136,4 @@ void hitungNilai3(mapel1, mapel2) {
   var nilaiAkhir = mapel1 + mapel2;
   print (nilaiAkhir);
 }
+
